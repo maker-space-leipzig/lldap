@@ -1,0 +1,13 @@
+# Siegfried von Säusel anlegen
+dn: uid=s.saeusel,ou=people,dc=example,dc=com
+objectClass: inetorgperson
+objectClass: posixAccount
+objectClass: mailAccount
+objectClass: person
+cn: Siegfried von Säusel
+first_name: Siegfried
+givenname: Siggi
+last-name: von Säusel
+mail: svs@chef.com
+uid: ssaeusel
+userPassword: $siegfriedPassword
